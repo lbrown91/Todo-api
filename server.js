@@ -3,7 +3,7 @@ var app = express();		// create express app, calls 'express' as a function
 var PORT = process.env.PORT || 3000;
 
 app.get('/', function (req, res) {
-	res.send('Todo API ROOT');
+	res.send('Todo API Root');
 });
 
 app.listen(PORT, function () {
